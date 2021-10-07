@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>登录</title>
+		<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>-->
+		<link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.css}"/>
+		<link rel="stylesheet" type="text/css" href="/css/login.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<form  class="rounded-3 position-absolute top-50 start-0 translate-middle-y" action="/login"  method="POST">
+				<div class="form-floating">
+				  <input type="text" class="form-control" name="username"   placeholder=" ">
+				  <label  >请输入账号</label>
+				</div>
+				<div class="form-floating">
+				  <input type="password" class="form-control" name="password"   placeholder=" ">
+				  <label  >请输入密码</label>
+				</div>
+				<div class="row">
+				  <div class="col-8">
+					  <div class="form-floating">
+					    <input type="text" class="form-control"   placeholder=" ">
+					    <label  >图形验证码</label>
+					  </div>
+				  </div>
+				  <div class="col">
+					  图形验证码
+				  </div>
+				</div>
+				<button type="submit" class="btn btn-primary rounded-pill">立即登录</button>
+			</form>
+		</div>
+		<script src="/js/bootstrap.bundle.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

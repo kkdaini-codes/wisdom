@@ -1,66 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3fe2d6-b0d0-438f-825e-9b3b83a2dfc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/WisdomApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kkdaini/wisdom/WisdomApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/config/ComponentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kkdaini/wisdom/GeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/WisdomApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/WisdomApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Java\maven_repo" />
-        <option name="mavenHome" value="D:/Java/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\Java\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/Apache/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="C:\Program Files\Apache\maven\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ykS9gzUYrwqJu0k65nu2iuStDi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kkdai\Desktop\物联\wisdom\src\main\resources\static\js" />
+      <recent name="C:\Users\kkdai\Desktop\物联\wisdom\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WisdomApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wisdom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkdaini.wisdom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkdaini.wisdom" />
+      <option name="MAIN_CLASS_NAME" value="com.kkdaini.wisdom.GeneratorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wisdom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkdaini.wisdom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkdaini.wisdom" />
+      <option name="MAIN_CLASS_NAME" value="com.kkdaini.wisdom.GeneratorTest" />
+      <option name="METHOD_NAME" value="testConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WisdomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wisdom" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkdaini.wisdom.WisdomApplication" />
@@ -68,6 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeneratorTest.test" />
+        <item itemvalue="JUnit.GeneratorTest.testConfig" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -81,20 +160,54 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b3fe2d6-b0d0-438f-825e-9b3b83a2dfc0" name="Default Changelist" comment="" />
+      <created>1633220664476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633220664476</updated>
+      <workItem from="1633220666554" duration="901000" />
+      <workItem from="1633221612537" duration="13000" />
+      <workItem from="1633225014244" duration="265000" />
+      <workItem from="1633238335182" duration="4917000" />
+      <workItem from="1633306484047" duration="8816000" />
+      <workItem from="1633336084126" duration="4693000" />
+      <workItem from="1633340914110" duration="1223000" />
+      <workItem from="1633348624143" duration="1373000" />
+      <workItem from="1633494662806" duration="2973000" />
+      <workItem from="1633585217660" duration="4295000" />
+    </task>
+    <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1632794404517">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1632794404517" />
-    <state x="303" y="75" key="SettingsEditor" timestamp="1632794138406">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1632794138406" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kkdaini/wisdom/service/UserDetailsServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

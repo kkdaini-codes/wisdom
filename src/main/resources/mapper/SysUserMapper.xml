@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kkdaini.wisdom.mapper.SysUserMapper">
+    <resultMap id="user" type="com.kkdaini.wisdom.bean.SysUser">
+        <id column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="status" property="status"/>
+        <collection property="roles" column="username" select="com.kkdaini.wisdom.mapper.SysUserRoleMapper.selectRole"/>
+    </resultMap>
+
+    <select id="selectByUsername" resultMap="user">
+        select * from sys_user where username=#{name} and status=1
+    </select>
+</mapper>

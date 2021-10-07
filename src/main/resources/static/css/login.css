@@ -1,0 +1,17 @@
+body{
+	background-image: url(/img/background.jpg);
+	/* 不重复平铺 */
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+form{
+	width: 25rem;
+	background-color: white;
+	padding: 0.5rem;
+	text-align: center;
+}
+.form-floating{
+	 margin-bottom: 1rem !important;
+}

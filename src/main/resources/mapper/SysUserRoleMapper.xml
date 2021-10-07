@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kkdaini.wisdom.mapper.SysUserRoleMapper">
+
+    <select id="selectRole" resultType="com.kkdaini.wisdom.bean.SysRole">
+        select sr.* from sys_user_role sur inner join sys_user su on sur.username = su.username
+            inner join sys_role sr on sur.role_id = sr.id  where su.username =#{username}
+    </select>
+</mapper>
